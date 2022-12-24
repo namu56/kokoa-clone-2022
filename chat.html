@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <div>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fa-solid fa-battery-three-quarters"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">    
+                <i class="fa-solid fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">Snnopy</span>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2022
+        </div>
+        <div class="massage-row">
+            <img src="https://usefulguide.net/wp-content/uploads/2022/08/img_theme5.jpg">
+            <div class="massage-row__content">
+                <span class="massage__author">Snoopy</span>
+                <div class="massage__info">
+                    <span class="massage__bubble">Hi!</span>
+                    <span class="massage__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="massage-row massage-row--own">
+            <div class="massage-row__content">
+                <div class="massage__info">
+                    <span class="massage__bubble">What's up?</span>
+                    <span class="massage__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="reply">
+            <div class="reply__column">
+                <i class="fa-solid fa-square-plus fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a massage..." />
+                <i class="fa-regular fa-face-smile fa-2x"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-2x"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <div id="no-mobile">
+        <span>Your screen is too big</span> 
+    </div>
+    <script src="https://kit.fontawesome.com/e3caf40753.js" crossorigin="anonymous"></script>
+</body>
+</html>
